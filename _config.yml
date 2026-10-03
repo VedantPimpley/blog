@@ -21,6 +21,8 @@ feed:
 
 exclude:
   - README.md
+  - publish
+  - .claude
   - Gemfile
   - Gemfile.lock
   - vendor
