@@ -1,0 +1,26 @@
+title: Vedant Pimpley
+author: Vedant Pimpley
+description: Essays.
+url: "https://VedantPimpley.github.io"
+baseurl: ""
+
+permalink: /:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+  syntax_highlighter_opts:
+    disable: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+feed:
+  path: feed.xml
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

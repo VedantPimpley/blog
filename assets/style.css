@@ -1,0 +1,102 @@
+:root {
+  --ink: #000;
+  --bg: #fff;
+  --link: #0000cc;
+  --visited: #551a8b;
+  --muted: #666;
+  --rule: #ddd;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #d8d8d8;
+    --bg: #151515;
+    --link: #8ab4f8;
+    --visited: #c7a3e0;
+    --muted: #8a8a8a;
+    --rule: #333;
+  }
+}
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Verdana, Geneva, "DejaVu Sans", sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.wrap {
+  max-width: 34em;
+  margin: 0 auto;
+  padding: 3.5rem 1.25rem 6rem;
+}
+
+a { color: var(--link); text-decoration: underline; }
+a:visited { color: var(--visited); }
+
+/* Header */
+.site-head { margin-bottom: 3rem; }
+.site-head a { color: var(--ink); text-decoration: none; }
+.site-title {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+.site-nav { margin-top: 0.4rem; font-size: 13px; color: var(--muted); }
+.site-nav a { color: var(--muted); text-decoration: none; margin-right: 0.9rem; }
+.site-nav a:hover { text-decoration: underline; }
+
+/* Index list */
+.posts { list-style: none; margin: 0; padding: 0; }
+.posts li { margin-bottom: 0.85rem; }
+.posts .date {
+  color: var(--muted);
+  font-size: 12px;
+  margin-left: 0.5rem;
+  white-space: nowrap;
+}
+
+/* Post */
+h1, h2, h3 { line-height: 1.35; font-weight: bold; }
+.post-title { font-size: 18px; margin: 0 0 0.25rem; }
+.post-meta { color: var(--muted); font-size: 12px; margin-bottom: 2rem; }
+.post-body h2 { font-size: 15px; margin-top: 2.5rem; }
+.post-body h3 { font-size: 15px; margin-top: 2rem; }
+.post-body p { margin: 0 0 1.4em; }
+
+blockquote {
+  margin: 1.4em 0;
+  padding-left: 1em;
+  border-left: 2px solid var(--rule);
+  color: var(--muted);
+}
+
+hr { border: none; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+
+img { max-width: 100%; height: auto; }
+
+code, pre {
+  font-family: "DejaVu Sans Mono", Menlo, Consolas, monospace;
+  font-size: 13px;
+}
+pre {
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  padding: 0.8em;
+  overflow-x: auto;
+}
+code { background: rgba(127,127,127,0.12); padding: 0.1em 0.3em; }
+pre code { background: none; padding: 0; }
+
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 0.4em 0.6em; border-bottom: 1px solid var(--rule); }
+
+/* Footnotes */
+.footnotes { font-size: 13px; color: var(--muted); border-top: 1px solid var(--rule); margin-top: 3rem; padding-top: 1rem; }
+
+.post-nav { margin-top: 3.5rem; font-size: 13px; }
