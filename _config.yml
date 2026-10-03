@@ -2,7 +2,7 @@ title: Vedant Pimpley
 author: Vedant Pimpley
 description: Essays.
 url: "https://VedantPimpley.github.io"
-baseurl: ""
+baseurl: "/blog"
 
 permalink: /:title/
 markdown: kramdown
