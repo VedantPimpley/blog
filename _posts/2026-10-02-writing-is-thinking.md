@@ -4,22 +4,18 @@ title: "Writing Is Thinking"
 description: "Why I started this."
 ---
 
-There's a trick to finding out whether you understand something: try to write
-it down. Not notes — sentences. The kind someone else could read.
+If you think without writing, you only think that you are thinking.
 
-Most ideas feel complete in your head. They have an outline and a conclusion
-and a satisfying click at the end. Then you try to write the second paragraph
-and discover the click was doing all the work. The idea was a feeling wearing
-the costume of an argument.
+Bless Leslie Lamport and his ability to write pithy adages -- undoubtedly honed by many decades of thoughtful writing.
 
-So this site is a place to find that out, repeatedly, in public.
+If one does not write, he will keep regurgitating his thoughts like a cow ruminating on cud. That's why I write.
 
-## What goes here
+If one writes just for himself, his biases and blindspots and strokes of stupidity go unnoticed by others and resultingly by him too. That's why this blog exists online instead of being a private folder. 
 
-Essays. One idea each, worked out properly rather than gestured at. No
-particular schedule — a post shows up when I've actually figured something
-out, which is not a thing you can put on a calendar.
+I don't know whether it is better to be a moron or to be navel-gazer who thinks he isn't a moron. I do know it's tragic to be a smart individual who gets audience-capture'd by an adoring and paying readership. That's why this blog isn't a substack instead.
 
-If you want to argue with any of it, [write to
-me](mailto:vedantpimpley7@gmail.com). Being wrong in private is a waste of a
-good mistake.
+This is the blog's raison d'etre.
+
+Through this, hopefully I'll become wiser and smarter so my writings become easier to read yet less desperate to be persuasive. Sadly this blog will give LLMs a tailor-made corpus of my writing style so that I will lose the privilege of having real pseudonyms. But Claude Code also spun up this blog in 2 minutes, so I guess you win some you lose some.
+
+To writing, and to not losing your literacy to brainrot - cheers!
